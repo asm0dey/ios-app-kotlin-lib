@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    kotlin("native.cocoapods")
 }
 
 @OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
@@ -14,16 +15,10 @@ kotlin {
             }
         }
     }
-    
-    listOf(
-        iosX64(),
-        iosArm64(),
-        iosSimulatorArm64()
-    ).forEach {
-        it.binaries.framework {
-            baseName = "shared"
-        }
-    }
+
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
 
     sourceSets {
         val commonMain by getting {
@@ -44,6 +39,16 @@ kotlin {
             dependencies {
                 implementation(libs.kotlinx.coroutines.android)
             }
+        }
+    }
+    cocoapods {
+        version = "1.0"
+        summary = "Some description for a Kotlin/Native module"
+        homepage = "Link to a Kotlin/Native module homepage"
+
+        framework {
+            baseName = "shared"
+
         }
     }
 }

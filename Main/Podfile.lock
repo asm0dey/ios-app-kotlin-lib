@@ -1,0 +1,16 @@
+PODS:
+  - shared (1.0)
+
+DEPENDENCIES:
+  - shared (from `../multiplatform-lib/shared/build/cocoapods/publish/debug/shared.podspec`)
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../multiplatform-lib/shared/build/cocoapods/publish/debug/shared.podspec"
+
+SPEC CHECKSUMS:
+  shared: 4e0cbd3237973d913c0480b5e33f38a7b2eafe4e
+
+PODFILE CHECKSUM: 3bdc9f5eb3e461262b94ccf93aa1e43074c18250
+
+COCOAPODS: 1.12.1

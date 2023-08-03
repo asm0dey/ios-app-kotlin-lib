@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D2BA45A2A7BAB780057CC5A"
-               BuildableName = "No framework.app"
-               BlueprintName = "No framework"
+               BuildableName = "Local pod.app"
+               BlueprintName = "Local pod"
                ReferencedContainer = "container:Main.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D2BA45A2A7BAB780057CC5A"
-            BuildableName = "No framework.app"
-            BlueprintName = "No framework"
+            BuildableName = "Local pod.app"
+            BlueprintName = "Local pod"
             ReferencedContainer = "container:Main.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D2BA45A2A7BAB780057CC5A"
-            BuildableName = "No framework.app"
-            BlueprintName = "No framework"
+            BuildableName = "Local pod.app"
+            BlueprintName = "Local pod"
             ReferencedContainer = "container:Main.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -1,0 +1,4 @@
+target 'Local pod' do
+  pod 'shared', :path => "../multiplatform-lib/shared/build/cocoapods/publish/debug/shared.podspec"
+end
+
