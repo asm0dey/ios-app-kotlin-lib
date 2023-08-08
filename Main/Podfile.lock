@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../multiplatform-lib/shared/shared.podspec"
 
 SPEC CHECKSUMS:
-  shared: edd8aa88e60b1b1750311f7f832bec1a2da88962
+  shared: aa65c310b0ee4ebdf4d412a7113d2a62bb4ac6c1
 
-PODFILE CHECKSUM: e9f5ed82f779a2affce8091485afe4c14730c3f3
+PODFILE CHECKSUM: f654e7db265eb6f83dbc0a2ffb5d8c842f3d6bda
 
 COCOAPODS: 1.12.1

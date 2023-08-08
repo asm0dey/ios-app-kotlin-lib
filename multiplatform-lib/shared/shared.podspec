@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
-    spec.version                  = '1.0'
-    spec.homepage                 = 'Link to a Kotlin/Native module homepage'
+    spec.version                  = '1.0.1'
+    spec.homepage                 = 'https://github.com/asm0dey/ios-app-kotlin-lib'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
-    spec.license                  = ''
+    spec.license                  = { :type => 'MIT' }
     spec.summary                  = 'Some description for a Kotlin/Native module'
     spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
     spec.libraries                = 'c++'
-                
+    spec.ios.deployment_target = '11.0'
                 
                 
     spec.pod_target_xcconfig = {
