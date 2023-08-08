@@ -2,10 +2,11 @@
 # platform :ios, '9.0'
 
 
-target 'Local pod' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-  
-  # Pods for Local pod
-  pod 'shared', :path => "../multiplatform-lib/shared/shared.podspec"
+#target 'Local pod' do
+#  pod 'shared', :path => "../multiplatform-lib/shared/shared.podspec"
+#end
+
+source 'https://github.com/asm0dey/ios-app-kotlin-lib-spec.git'
+target 'Remote pod' do
+  pod 'shared'
 end

@@ -49,7 +49,6 @@ kotlin {
         version = "1.0.1"
         summary = "Some description for a Kotlin/Native module"
         homepage = "https://github.com/asm0dey/ios-app-kotlin-lib"
-        source = "{ :git => 'https://github.com/asm0dey/ios-app-kotlin-lib-spec.git' }"
         ios.deploymentTarget = "11.0"
         framework {
             baseName = "shared"
@@ -66,18 +65,19 @@ android {
     }
 }
 kmmbridge {
-    mavenPublishArtifacts("asm0dey/ios-app-kotlin-lib")
-    manualVersions()
-    cocoapods("https://github.com/asm0dey/ios-app-kotlin-lib-spec.git")
+    mavenPublishArtifacts("GithubRepo")
+    timestampVersions()
+    cocoapods("https://github.com/asm0dey/ios-app-kotlin-lib-spec.git", verboseErrors = true)
 }
 
 publishing {
     repositories {
         maven {
+            name = "GithubRepo"
             url = uri("https://maven.pkg.github.com/asm0dey/ios-app-kotlin-lib")
             credentials {
-                username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
+                username = project.findProperty("gpr.user") as? String ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") as? String ?: System.getenv("TOKEN")
             }
         }
     }
