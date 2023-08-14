@@ -3,6 +3,7 @@ plugins {
     id("com.android.library")
     kotlin("native.cocoapods")
     id("co.touchlab.faktory.kmmbridge")
+    id("io.github.luca992.multiplatform-swiftpackage") version "2.1.2"
     `maven-publish`
 }
 
@@ -69,6 +70,15 @@ kmmbridge {
     timestampVersions()
     cocoapods("https://github.com/asm0dey/ios-app-kotlin-lib-spec.git", verboseErrors = true)
 }
+
+multiplatformSwiftPackage {
+    swiftToolsVersion("5.3")
+    targetPlatforms {
+        iOS { v("11") }
+    }
+    outputDirectory(File(buildDir, "swiftPackage"))
+}
+
 
 publishing {
     repositories {

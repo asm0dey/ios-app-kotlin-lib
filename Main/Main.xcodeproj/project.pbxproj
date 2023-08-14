@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		732CCD8D73980D6FC058E645 /* libPods-Remote pod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6D59248596D260C836B5DB /* libPods-Remote pod.a */; };
 		7D2BA45E2A7BAB780057CC5A /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB778022A7BA0AD0058BB61 /* MainApp.swift */; };
 		7D2BA4612A7BAB780057CC5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB778092A7BA0AE0058BB61 /* Preview Assets.xcassets */; };
 		7D2BA4622A7BAB780057CC5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB778062A7BA0AE0058BB61 /* Assets.xcassets */; };
+		7D363A2F2A8A3F1D0041B8EA /* shared in Frameworks */ = {isa = PBXBuildFile; productRef = 7D363A2E2A8A3F1D0041B8EA /* shared */; };
 		7DB778032A7BA0AD0058BB61 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB778022A7BA0AD0058BB61 /* MainApp.swift */; };
 		7DB778072A7BA0AE0058BB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB778062A7BA0AE0058BB61 /* Assets.xcassets */; };
 		7DB7780A2A7BA0AE0058BB61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB778092A7BA0AE0058BB61 /* Preview Assets.xcassets */; };
 		7DE70FDB2A7BC02E00CCE458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE70FDA2A7BC02E00CCE458 /* ContentView.swift */; };
 		7DE70FDC2A7BC02E00CCE458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE70FDA2A7BC02E00CCE458 /* ContentView.swift */; };
-		8A2D3BFDD9E0C11D6C8410A0 /* libPods-Remote pod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6016F6F0F03FC13B8C27E7A5 /* libPods-Remote pod.a */; };
+		7DFB49132A8A3A8700159BFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE70FDA2A7BC02E00CCE458 /* ContentView.swift */; };
+		7DFB49142A8A3A8700159BFC /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB778022A7BA0AD0058BB61 /* MainApp.swift */; };
+		7DFB49172A8A3A8700159BFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB778092A7BA0AE0058BB61 /* Preview Assets.xcassets */; };
+		7DFB49182A8A3A8700159BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB778062A7BA0AE0058BB61 /* Assets.xcassets */; };
+		8A2D3BFDD9E0C11D6C8410A0 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6016F6F0F03FC13B8C27E7A5 /* libPods-Remote pod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remote pod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B94D854533F2E32A6F1623 /* Pods-Remote SPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remote SPM.release.xcconfig"; path = "Target Support Files/Pods-Remote SPM/Pods-Remote SPM.release.xcconfig"; sourceTree = "<group>"; };
+		6B6D59248596D260C836B5DB /* libPods-Remote pod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remote pod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2BA4662A7BAB780057CC5A /* Remote pod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote pod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB777FF2A7BA0AD0058BB61 /* Embed and sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Embed and sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB778022A7BA0AD0058BB61 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		7DB778062A7BA0AE0058BB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB778092A7BA0AE0058BB61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DE70FDA2A7BC02E00CCE458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7DFB491C2A8A3A8700159BFC /* Remote SPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote SPM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD694AAF995920875E8C75B /* Pods-Remote pod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remote pod.release.xcconfig"; path = "Target Support Files/Pods-Remote pod/Pods-Remote pod.release.xcconfig"; sourceTree = "<group>"; };
+		E9018568D38954C3C68ECADF /* libPods-Remote SPM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remote SPM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5A95CB639F2E3F372E580C /* Pods-Remote pod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remote pod.debug.xcconfig"; path = "Target Support Files/Pods-Remote pod/Pods-Remote pod.debug.xcconfig"; sourceTree = "<group>"; };
+		F55B1439882F64D3DE25C2FC /* Pods-Remote SPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remote SPM.debug.xcconfig"; path = "Target Support Files/Pods-Remote SPM/Pods-Remote SPM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A2D3BFDD9E0C11D6C8410A0 /* libPods-Remote pod.a in Frameworks */,
+				8A2D3BFDD9E0C11D6C8410A0 /* (null) in Frameworks */,
+				732CCD8D73980D6FC058E645 /* libPods-Remote pod.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,13 +57,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DFB49152A8A3A8700159BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D363A2F2A8A3F1D0041B8EA /* shared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		161379780C26B61EB9EF845D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6016F6F0F03FC13B8C27E7A5 /* libPods-Remote pod.a */,
+				E9018568D38954C3C68ECADF /* libPods-Remote SPM.a */,
+				6B6D59248596D260C836B5DB /* libPods-Remote pod.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,6 +92,7 @@
 			children = (
 				7DB777FF2A7BA0AD0058BB61 /* Embed and sign.app */,
 				7D2BA4662A7BAB780057CC5A /* Remote pod.app */,
+				7DFB491C2A8A3A8700159BFC /* Remote SPM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +121,8 @@
 			children = (
 				EE5A95CB639F2E3F372E580C /* Pods-Remote pod.debug.xcconfig */,
 				8CD694AAF995920875E8C75B /* Pods-Remote pod.release.xcconfig */,
+				F55B1439882F64D3DE25C2FC /* Pods-Remote SPM.debug.xcconfig */,
+				42B94D854533F2E32A6F1623 /* Pods-Remote SPM.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -140,8 +163,30 @@
 			dependencies = (
 			);
 			name = "Embed and sign";
+			packageProductDependencies = (
+			);
 			productName = Main;
 			productReference = 7DB777FF2A7BA0AD0058BB61 /* Embed and sign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DFB49102A8A3A8700159BFC /* Remote SPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFB49192A8A3A8700159BFC /* Build configuration list for PBXNativeTarget "Remote SPM" */;
+			buildPhases = (
+				7DFB49122A8A3A8700159BFC /* Sources */,
+				7DFB49152A8A3A8700159BFC /* Frameworks */,
+				7DFB49162A8A3A8700159BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remote SPM";
+			packageProductDependencies = (
+				7D363A2E2A8A3F1D0041B8EA /* shared */,
+			);
+			productName = Main;
+			productReference = 7DFB491C2A8A3A8700159BFC /* Remote SPM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,12 +213,16 @@
 				Base,
 			);
 			mainGroup = 7DB777F62A7BA0AD0058BB61;
+			packageReferences = (
+				7D363A2D2A8A3F1D0041B8EA /* XCRemoteSwiftPackageReference "ios-app-kotlin-lib-spm" */,
+			);
 			productRefGroup = 7DB778002A7BA0AD0058BB61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7DB777FE2A7BA0AD0058BB61 /* Embed and sign */,
 				7D2BA45A2A7BAB780057CC5A /* Remote pod */,
+				7DFB49102A8A3A8700159BFC /* Remote SPM */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +243,15 @@
 			files = (
 				7DB7780A2A7BA0AE0058BB61 /* Preview Assets.xcassets in Resources */,
 				7DB778072A7BA0AE0058BB61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFB49162A8A3A8700159BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFB49172A8A3A8700159BFC /* Preview Assets.xcassets in Resources */,
+				7DFB49182A8A3A8700159BFC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +332,15 @@
 			files = (
 				7DE70FDB2A7BC02E00CCE458 /* ContentView.swift in Sources */,
 				7DB778032A7BA0AD0058BB61 /* MainApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFB49122A8A3A8700159BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFB49132A8A3A8700159BFC /* ContentView.swift in Sources */,
+				7DFB49142A8A3A8700159BFC /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +591,76 @@
 			};
 			name = Release;
 		};
+		7DFB491A2A8A3A8700159BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Main/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					shared,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.asm0dey.testapp.Main;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DFB491B2A8A3A8700159BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Main/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-framework",
+					shared,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.asm0dey.testapp.Main;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -554,7 +691,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7DFB49192A8A3A8700159BFC /* Build configuration list for PBXNativeTarget "Remote SPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFB491A2A8A3A8700159BFC /* Debug */,
+				7DFB491B2A8A3A8700159BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D363A2D2A8A3F1D0041B8EA /* XCRemoteSwiftPackageReference "ios-app-kotlin-lib-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/asm0dey/ios-app-kotlin-lib-spm.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D363A2E2A8A3F1D0041B8EA /* shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D363A2D2A8A3F1D0041B8EA /* XCRemoteSwiftPackageReference "ios-app-kotlin-lib-spm" */;
+			productName = shared;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7DB777F72A7BA0AD0058BB61 /* Project object */;
 }

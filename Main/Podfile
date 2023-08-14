@@ -10,3 +10,6 @@ source 'https://github.com/asm0dey/ios-app-kotlin-lib-spec.git'
 target 'Remote pod' do
   pod 'shared'
 end
+target 'Remote SPM' do
+end
+

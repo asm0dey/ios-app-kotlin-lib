@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-app-kotlin-lib-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/asm0dey/ios-app-kotlin-lib-spm.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "441f1c8ad2a1ca4e615653e762b4797b8fb68647"
+      }
+    }
+  ],
+  "version" : 2
+}
