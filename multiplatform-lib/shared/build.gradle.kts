@@ -3,7 +3,7 @@ plugins {
     id("com.android.library")
     kotlin("native.cocoapods")
     id("co.touchlab.faktory.kmmbridge")
-    id("io.github.luca992.multiplatform-swiftpackage") version "2.1.2"
+    id("io.github.luca992.multiplatform-swiftpackage") version "2.2.2"
     `maven-publish`
 }
 
