@@ -1,6 +1,6 @@
 [versions]
 activity-compose = "1.7.2"
-foundation = "1.4.3"
+foundation = "1.6.4"
 ktor = "2.3.3"
 coroutines = "1.7.3"
 material = "1.4.3"
